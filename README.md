@@ -1,14 +1,14 @@
 # Projeto_Clima
 
-VISÃO GERAL
+## VISÃO GERAL
 
 
-I. Introdução
+### I. Introdução
 
 Este é um projeto de análise estatística e modelagem preditiva para séries temporais em Python usando dados climáticos.
 
 
-II. Escopo
+### II. Escopo
 
 . Criação de dataset fictício: arquivo .csv gerado no Python
 
@@ -19,7 +19,7 @@ II. Escopo
 . Machine Learning: Regressão Linear Múltipla e SARIMA - Avaliação dos modelos
 
 
-III. Skills e Conhecimentos empregados
+### III. Skills e Conhecimentos empregados
 
 As seguintes ferramentas/conhecimentos foram utilizadas neste projeto:
 
@@ -28,7 +28,7 @@ As seguintes ferramentas/conhecimentos foram utilizadas neste projeto:
 • Python - Jupyter Notebook
 
 
-IV. Etapas
+### IV. Etapas
 
 • Desenvolvimento de script de geração do dataset
 
@@ -43,11 +43,11 @@ IV. Etapas
 	• Publicação do projeto no GitHub
 
 
-V. Considerações
+### V. Considerações
 
 A análise de séries temporais é o foco deste projeto. Vale reforçar que análises que envolvem a variável 'tempo' são desafiadoras. A modelagem preditiva e avaliação dos modelos são um bônus significativo deste projeto.
 
-VI. Arquivos do Projeto
+### VI. Arquivos do Projeto
 
 Para replicar este projeto, baixe os arquivos dados_clima.csv e Clima.ipynb. Caso queira recriar o dataset, baixe o arquivo
 Gera_dataset.ipynb, também disponível.
