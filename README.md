@@ -1,53 +1,85 @@
-# Projeto_Clima
+# Projeto Clima – Análise Estatística e Modelagem de Séries Temporais em Python
 
-## VISÃO GERAL
+## 📌 Contexto de Negócio
+Dados climáticos são amplamente utilizados em setores como agricultura, energia, logística e planejamento urbano. A análise de séries temporais permite compreender padrões históricos, sazonalidade e tendências, além de apoiar previsões que auxiliam a tomada de decisão.
 
+Este projeto simula um cenário de análise climática, com foco em **séries temporais**, explorando tanto a análise estatística quanto a modelagem preditiva.
 
-### I. Introdução
+---
 
-Este é um projeto de análise estatística e modelagem preditiva para séries temporais em Python usando dados climáticos.
+## 🎯 Objetivos do Projeto
+- Criar um dataset climático fictício para análise  
+- Realizar análise exploratória e estatística de séries temporais  
+- Investigar padrões, tendências e sazonalidade  
+- Desenvolver e avaliar modelos preditivos  
+- Demonstrar o uso de técnicas clássicas de séries temporais em Python  
 
+---
 
-### II. Escopo
+## 📊 Base de Dados
+O projeto utiliza um **dataset fictício em formato CSV**, gerado em Python, contendo dados climáticos em frequência temporal regular.
 
-. Criação de dataset fictício: arquivo .csv gerado no Python
+As variáveis simulam informações como:
+- Temperatura  
+- Outras variáveis climáticas relevantes (ex.: umidade, precipitação, conforme dataset gerado)  
 
-. Análise exploratória, estatística e ETL
+Os dados foram tratados por meio de processos de **ETL**, garantindo consistência para análise e modelagem.
 
-. Gráficos: histogramas, decomposição e evolução das séries
+---
 
-. Machine Learning: Regressão Linear Múltipla e SARIMA - Avaliação dos modelos
+## 🔎 Análises Realizadas
+Foram executadas as seguintes etapas analíticas:
 
+- Análise exploratória dos dados  
+- Estatística descritiva  
+- Tratamento e transformação dos dados (ETL)  
+- Visualização de séries temporais  
+- Decomposição das séries (tendência, sazonalidade e resíduo)  
 
-### III. Skills e Conhecimentos empregados
+Gráficos utilizados:
+- Histogramas  
+- Evolução temporal das séries  
+- Gráficos de decomposição  
 
-As seguintes ferramentas/conhecimentos foram utilizadas neste projeto:
+---
 
-• Sublime Text
+## 📈 Modelagem Preditiva
+Foram desenvolvidos e avaliados modelos de **Machine Learning e séries temporais**, incluindo:
 
-• Python - Jupyter Notebook
+- Regressão Linear Múltipla  
+- Modelo SARIMA  
 
+Os modelos foram avaliados com métricas apropriadas para séries temporais, permitindo comparar desempenho e capacidade preditiva.
 
-### IV. Etapas
+> A modelagem preditiva é tratada como um complemento à análise estatística, reforçando a complexidade inerente a dados temporais.
 
-• Desenvolvimento de script de geração do dataset
+---
 
-• Desenvolvimento de script contendo:
+## 🛠️ Tecnologias Utilizadas
+- Python  
+- Jupyter Notebook  
+- Bibliotecas de análise de dados e séries temporais  
+- Sublime Text  
 
-	• Análise exploratória e estatística dos dados
+---
 
-	• ETL
+## ▶️ Como Executar o Projeto
+1. Baixar os arquivos do repositório  
+2. Abrir o notebook `Clima.ipynb` para executar as análises e modelos  
+3. Utilizar o arquivo `dados_clima.csv` como base de dados  
+4. (Opcional) Executar o notebook `Gera_dataset.ipynb` para recriar o dataset fictício  
 
-	• Criação/avaliação dos modelos de machine learning
+---
 
-	• Publicação do projeto no GitHub
+## 🧠 Considerações Finais
+Este projeto tem como foco principal a **análise de séries temporais**, destacando os desafios associados à variável tempo, como sazonalidade, tendência e autocorrelação.
 
+A inclusão de modelos preditivos amplia a aplicação do projeto, demonstrando a integração entre análise estatística e técnicas de previsão em Python.
 
-### V. Considerações
+Por se tratar de um dataset fictício, os resultados têm caráter demonstrativo, com foco na **metodologia analítica e na interpretação dos dados**.
 
-A análise de séries temporais é o foco deste projeto. Vale reforçar que análises que envolvem a variável 'tempo' são desafiadoras. A modelagem preditiva e avaliação dos modelos são um bônus significativo deste projeto.
+---
 
-### VI. Arquivos do Projeto
-
-Para replicar este projeto, baixe os arquivos dados_clima.csv e Clima.ipynb. Caso queira recriar o dataset, baixe o arquivo
-Gera_dataset.ipynb, também disponível.
+## 👩‍💻 Autora
+**Cláudia Kênia da Silva**  
+Data Analyst | BI & Analytics  
